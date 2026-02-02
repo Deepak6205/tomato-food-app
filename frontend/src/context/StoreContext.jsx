@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 export const StoreContext = createContext(null);
 export const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:4000";
+  const url = "https://tomato-food-app-backend-0o1z.onrender.com";
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
