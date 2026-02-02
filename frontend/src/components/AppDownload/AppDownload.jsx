@@ -1,6 +1,9 @@
 import React from "react";
 import "./AppDownload.css";
-import { assets } from "../../assets/assets";
+
+import playStore from "../../assets/play_store.png";
+import appStore from "../../assets/app_store.png";
+
 const AppDownload = () => {
   return (
     <div className="app-download" id="app-download">
@@ -8,9 +11,10 @@ const AppDownload = () => {
         For Better Experience Download <br />
         Tomato app
       </p>
+
       <div className="app-download-platforms">
-        <img src={assets.play_store} alt="google-play-store" />
-        <img src={assets.app_store} alt="apple-app-store" />
+        <img src={playStore} alt="google-play-store" />
+        <img src={appStore} alt="apple-app-store" />
       </div>
     </div>
   );
